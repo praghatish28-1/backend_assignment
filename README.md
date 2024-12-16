@@ -121,11 +121,15 @@ This will discover and run all the test cases in the `test` directory.
 
 Alternatively, you can run each test file individually:
 
-sh
+```sh
 python -m unittest test.test_database_manager
-python -m unittest test.test_gmail_service
-python -m unittest test.test_rule_processor
 
+
+python -m unittest test.test_gmail_service
+
+
+python -m unittest test.test_rule_processor
+```
 
 ## Project Details
 
