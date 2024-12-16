@@ -1,0 +1,8 @@
+{
+    "db_path": "emails.db",
+    "credentials_path": "config/credentials.json",
+    "token_path": "config/token.json",
+    "rules_path": "config/rules2.json",
+    "scopes": ["https://www.googleapis.com/auth/gmail.modify"],
+    "log_file": "email_processor.log"
+}

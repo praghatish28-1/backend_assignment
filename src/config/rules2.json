@@ -1,0 +1,22 @@
+[
+    {
+        "description": "Rule 2",
+        "if": "all",
+        "conditions": [
+            {
+                "field_name": "Date received",
+                "predicate": "greater_than",
+                "value": "2024-12-14"
+            },
+            {
+                "field_name": "Date received",
+                "predicate": "less_than",
+                "value": "2024-12-16"
+            }
+        ],
+        "perform_actions": [
+            "mark_as_unread"
+        ]
+    }
+]
+
