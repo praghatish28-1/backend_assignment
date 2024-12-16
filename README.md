@@ -5,16 +5,23 @@ This project is an email rule processing system that interacts with a Gmail acco
 ## Project Structure
 project_root/
 ├── src/
-│ └── services/
-│ ├── init.py
-│ ├── database_manager.py
-│ ├── gmail_service.py
-│ └── rule_processor.py
-└── test/
-├── init.py
-├── test_database_manager.py
-├── test_gmail_service.py
-└── test_rule_processor.py
+│   ├── config/
+│   │   ├── __init__.py
+│   │   ├── config.json
+│   │   ├── credentials.json
+│   │   ├── logging_config.json
+│   │   ├── rules.json
+│   │   └── token.pickle
+│   └── services/
+│       ├── __init__.py
+│       ├── database_manager.py
+│       ├── gmail_service.py
+│       └── rule_processor.py
+└── tests/
+    ├── __init__.py
+    ├── test_database_manager.py
+    ├── test_gmail_service.py
+    └── test_rule_processor.py
 
 
 
@@ -34,7 +41,7 @@ project_root/
 
 ### Prerequisites
 
-- Python 3.6+
+- Python 3.9+
 - `pip` (Python package installer)
 - SQLite3
 - Google API credentials for Gmail API
